@@ -1,0 +1,61 @@
+
+.trolley_content{
+    padding-top: 70px;
+}
+
+.trolley_title{
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.trolley_title span{
+    color: #f3a50a;
+}
+
+.trolley_content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #777;
+}
+
+.trolley_btns button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.order_btn{
+    background: #f3a50a;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.order_btn:hover{
+    background: #212245;
+}
+
+.all_products-btn{
+    background: transparent;
+    border: 1px solid #f3a50a !important;
+}
+
+.all_products-btn a{
+    color: #f3a50a;
+}
+
+.trolley_service p{
+    color: #212245;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.shipping_icon i{
+    padding: 5px;
+    background: #f3a50a;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+}

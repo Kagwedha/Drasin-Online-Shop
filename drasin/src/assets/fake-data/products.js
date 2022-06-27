@@ -1,0 +1,183 @@
+// all images imported from images directory
+import accessories from "../images/accessories.jpg";
+import accessories1 from "../images/accessories1.jpg";
+import vaccum from "../images/vaccum.jpg";
+
+import appliances from "../images/appliances.jpg";
+import appliances1 from "../images/appliances1.jpg";
+import appliances2 from "../images/appliances2.jpg";
+
+import autoparts from "../images/autoparts.jpg";
+import autoparts1 from "../images/autoparts1.jpg";
+import autoparts2 from "../images/autoparts2.jpg";
+
+import clothes from "../images/clothes.jpg";
+import clothes1 from "../images/clothes1.jpg";
+import clothes2 from "../images/clothes2.jpg";
+
+import electronic from "../images/electronic.jpg";
+import electronic1 from "../images/electronic1.jpg";
+import electronic2 from "../images/electronic2.jpg";
+
+import footwear from "../images/footwear.jpg";
+import footwear1 from "../images/footwear1.jpg";
+import footwear2 from "../images/footwear2.jpg";
+
+const products = [
+  {
+    id: "01",
+    title: "Chicken Burger",
+    price: 24.0,
+    image01: accessories,
+    image02: accessories1,
+    image03: vaccum,
+    category: "Burger",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
+  },
+
+  {
+    id: "02",
+    title: "Vegetarian Pizza",
+    price: 115.0,
+    image01: appliances,
+    image02: appliances1,
+    image03: appliances2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "03",
+    title: "Double Cheese Margherita",
+    price: 110.0,
+    image01: autoparts,
+    image02: autoparts1,
+    image03: autoparts2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "04",
+    title: "Maxican Green Wave",
+    price: 110.0,
+    image01: clothes,
+    image02: clothes1,
+    image03: clothes2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "05",
+    title: "Cheese Burger",
+    price: 24.0,
+    image01: electronic,
+    image02: electronic1,
+    image03: electronic2,
+    category: "Burger",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+  {
+    id: "06",
+    title: "Royal Cheese Burger",
+    price: 24.0,
+    image01: accessories1,
+    image02: vaccum,
+    image03: accessories,
+    category: "Burger",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "07",
+    title: "Seafood Pizza",
+    price: 115.0,
+    image01: appliances1,
+    image02: appliances,
+    image03: appliances2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "08",
+    title: "Thin Cheese Pizza",
+    price: 110.0,
+    image01: autoparts1,
+    image02: autoparts,
+    image03: autoparts2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "09",
+    title: "Pizza With Mushroom",
+    price: 110.0,
+    image01: clothes1,
+    image02: clothes,
+    image03: clothes2,
+    category: "Pizza",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "10",
+    title: "Classic Hamburger",
+    price: 24.0,
+    image01: electronic2,
+    image02: electronic,
+    image03: electronic1,
+    category: "Burger",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "11",
+    title: "Crunchy Bread ",
+    price: 35.0,
+    image01: footwear1,
+    image02: footwear,
+    image03: footwear2,
+    category: "Bread",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "12",
+    title: "Delicious Bread ",
+    price: 35.0,
+    image01: footwear2,
+    image02: footwear1,
+    image03: footwear,
+    category: "Bread",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+
+  {
+    id: "13",
+    title: "Loaf Bread ",
+    price: 35.0,
+    image01: footwear,
+    image02: footwear2,
+    image03: footwear1,
+    category: "Bread",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
+  },
+];
+
+export default products;
