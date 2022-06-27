@@ -8,6 +8,31 @@ import "../styles/trolley-section.css";
 
 import { Link } from "react-router-dom";
 
+import Category from '../components/UI/category/Category.jsx';
+import "../styles/home.css";
+
+import featureImg01 from "../assets/images/service1.gif";
+import featureImg02 from "../assets/images/service2.gif";
+import featureImg03 from "../assets/images/service3.gif";
+
+const featureData = [
+  {
+    title: 'Quick Delivery',
+    imgUrl: featureImg02,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus."
+  },
+  {
+    title: 'Easy Shopping',
+    imgUrl: featureImg03,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus."
+  },
+  {
+    title: 'Easy Pick Up',
+    imgUrl: featureImg01,
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, doloribus."
+  },
+]
+
 const Home = () => {
   return <Helmet title="Home">
     <section>
@@ -53,6 +78,40 @@ const Home = () => {
               <img src={trolleyImg} alt="trolley-img" className='w-100' />
             </div>
           </Col>
+        </Row>
+      </Container>
+    </section>
+
+    <section className='pt-0'>
+      <Category/>
+    </section>
+
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12' className='text-center'>
+            <h5 className='feature_subtitle mb-4'>What we serve</h5>
+            <h2 className='feature_title'>Just sit back at home</h2>
+            <h2 className='feature_title'>
+              we will <span>take care</span>
+            </h2>
+            <p className='mb-1 mt-4 feature_text'>Lorem ipsum dolor sit 
+            amet consectetur adipisicing elit. Perferendis, beatae?</p>
+            <p className='feature_text'>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Fugiat, possimus.{" "}
+            </p>
+          </Col>
+
+          {featureData.map((item, index) => (
+            <Col lg='4' md='4' key={index}>
+              <div className='feature_item'>
+                <img src={item.imgUrl} alt="feature-img" />
+                <h5>{item.title}</h5>
+                <p>{item.desc}</p>
+              </div>
+            </Col>
+          ))}
+         
         </Row>
       </Container>
     </section>
