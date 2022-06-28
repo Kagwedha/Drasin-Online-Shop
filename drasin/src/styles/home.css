@@ -11,3 +11,103 @@
 .feature_text{
     color: #777;
 }
+
+.feature_item p{
+    color: #777;
+}
+
+.product_category{
+    background: #f3a50a;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 8px;
+}
+
+.product_category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+}
+
+.product_category button img{
+    width: 20px;
+    height: 20px;
+}
+
+.productBtnActive{
+    background: #fff !important;
+    border-radius: 5px;
+    color: #f3a50a !important;
+}
+
+.drasin-title span{
+    color: #f3a50a;
+}
+
+.drasin-desc{
+    color: #777;
+    line-height: 28px;
+}
+
+.choose_us-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose_us-title i{
+    font-weight: 500 !important;
+    color: #f3a50a;
+}
+
+.choose_us-desc{
+    color: #777;
+}
+
+.testimonial_subtitle{
+    color: #f3a50a;
+}
+
+.testimonial_title span{
+    color: #f3a50a;
+}
+
+.testimonial_desc{
+    color: #777;
+    line-height: 30px;
+}
+
+@media only screen and (max-width:576px) {
+    .trolley_content{
+        text-align: center;
+    }
+    .trolley_content h5{
+        font-size: 1rem;
+    }
+
+    .trolley_content p{
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .trolley_title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .trolley_btns{
+        justify-content: center;
+    }
+
+    .trolley_btns button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .trolley_service{
+        justify-content: center;
+    }
+    
+}

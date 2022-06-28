@@ -26,19 +26,19 @@ import footwear2 from "../images/footwear2.jpg";
 const products = [
   {
     id: "01",
-    title: "Chicken Burger",
+    title: "Hats",
     price: 24.0,
     image01: accessories,
     image02: accessories1,
     image03: vaccum,
-    category: "Burger",
+    category: "Accessories",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque. ",
   },
 
   {
     id: "02",
-    title: "Vegetarian Pizza",
+    title: "Fridge",
     price: 115.0,
     image01: appliances,
     image02: appliances1,
@@ -50,131 +50,131 @@ const products = [
 
   {
     id: "03",
-    title: "Double Cheese Margherita",
+    title: "Engine",
     price: 110.0,
     image01: autoparts,
     image02: autoparts1,
     image03: autoparts2,
-    category: "Pizza",
+    category: "Autoparts",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "04",
-    title: "Maxican Green Wave",
+    title: "Blue tie",
     price: 110.0,
     image01: clothes,
     image02: clothes1,
     image03: clothes2,
-    category: "Pizza",
+    category: "Clothes",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "05",
-    title: "Cheese Burger",
+    title: "Motherboard",
     price: 24.0,
     image01: electronic,
     image02: electronic1,
     image03: electronic2,
-    category: "Burger",
+    category: "Electronics",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
   {
     id: "06",
-    title: "Royal Cheese Burger",
+    title: "Classic specs",
     price: 24.0,
     image01: accessories1,
     image02: vaccum,
     image03: accessories,
-    category: "Burger",
+    category: "Accessories",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "07",
-    title: "Seafood Pizza",
+    title: "Dell oven",
     price: 115.0,
     image01: appliances1,
     image02: appliances,
     image03: appliances2,
-    category: "Pizza",
+    category: "Home Appliances",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "08",
-    title: "Thin Cheese Pizza",
+    title: "Spedometer",
     price: 110.0,
     image01: autoparts1,
     image02: autoparts,
     image03: autoparts2,
-    category: "Pizza",
+    category: "Autoparts",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "09",
-    title: "Pizza With Mushroom",
+    title: "Official shirt",
     price: 110.0,
     image01: clothes1,
     image02: clothes,
     image03: clothes2,
-    category: "Pizza",
+    category: "Clothes",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "10",
-    title: "Classic Hamburger",
+    title: "Motherboard",
     price: 24.0,
     image01: electronic2,
     image02: electronic,
     image03: electronic1,
-    category: "Burger",
+    category: "Electronics",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "11",
-    title: "Crunchy Bread ",
+    title: "Tommy shoes",
     price: 35.0,
     image01: footwear1,
     image02: footwear,
     image03: footwear2,
-    category: "Bread",
+    category: "Footwear",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "12",
-    title: "Delicious Bread ",
+    title: "Official men shoes",
     price: 35.0,
     image01: footwear2,
     image02: footwear1,
     image03: footwear,
-    category: "Bread",
+    category: "Footwear",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
 
   {
     id: "13",
-    title: "Loaf Bread ",
+    title: "Yellow boots",
     price: 35.0,
     image01: footwear,
     image02: footwear2,
     image03: footwear1,
-    category: "Bread",
+    category: "Footwear",
 
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque.",
   },
