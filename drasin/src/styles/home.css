@@ -79,10 +79,7 @@
     line-height: 30px;
 }
 
-@media only screen and (max-width:576px) {
-    .trolley_content{
-        text-align: center;
-    }
+@media only screen and (max-width: 768px) {
     .trolley_content h5{
         font-size: 1rem;
     }
@@ -97,17 +94,79 @@
         line-height: 40px;
     }
 
-    .trolley_btns{
-        justify-content: center;
-    }
-
     .trolley_btns button{
         padding: 5px 15px;
         font-size: 0.7rem;
     }
 
+    .trolley_service p{
+        font-size: 0.7rem !important;
+    }
+
+    .feature_item h5{
+        font-size: 0.9rem;
+    }
+
+    .feature_item p{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .feature_subtitle{
+        font-size: 1rem;
+    }
+
+    .feature_text{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .product_category{
+        padding: 15px;
+    }
+
+    .product_category button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .drasin-desc{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+
+    .choose_us-title{
+        font-size: 0.8rem;
+    }
+
+    .choose_us-desc{
+        font-size: 0.7rem;
+    }
+
+    .testimonial_subtitle{
+        font-size: 1rem;
+    }
+
+    .testimonial_desc{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .trolley_content{
+        text-align: center;
+    }
+   
+    .trolley_btns{
+        justify-content: center;
+    }
+
     .trolley_service{
         justify-content: center;
+    }
+
+    .why_choose-us{
+        padding-top: 0 !important;
     }
     
 }

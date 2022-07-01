@@ -86,3 +86,58 @@
     font-size: 0.8rem;
     color: #f3a50a;
 }
+
+
+@media only screen and (max-width: 992px){
+    .newsletter input{
+        padding: 7px;
+        font-size: 0.7rem;
+    }
+
+    .newsletter span{
+        padding: 4px 20px;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_title{
+        font-size: 0.8rem;
+    }
+
+    .delivery_time-item span{
+        font-size: 0.8rem;
+    }
+
+    .delivery_time-item p{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+
+   
+    
+}
+
+
+@media only screen and (max-width: 576px){
+    .copyright_text{
+        text-align: center;
+    }
+
+    .social_links{
+        justify-content: center;
+    }
+
+    .social_links p{
+        font-size: 0.8rem;
+    }
+
+    .social_links span{
+        padding: 4px; 
+    }
+
+    .social_links span a{
+        font-size: 0.7rem;
+    }
+}

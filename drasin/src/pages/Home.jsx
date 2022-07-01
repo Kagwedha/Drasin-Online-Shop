@@ -154,7 +154,7 @@ const Home = () => {
           </Col>
 
           {featureData.map((item, index) => (
-            <Col lg='4' md='4' key={index} className='mt-5'>
+            <Col lg='4' md='6' sm='6' key={index} className='mt-5'>
               <div className='feature_item text-center px-5 py-3'>
                 <img src={item.imgUrl} alt="feature-img" className='w-25 mb-3'/>
                 <h5 className='fw-bold mb-3'>{item.title}</h5>
@@ -198,7 +198,7 @@ const Home = () => {
           </Col>
 
           {allProducts.map((item)=>(
-            <Col lg="3" md="4" key={item.id} className="mt-5">
+            <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
               <ProductCard item={item}/>
             </Col>
           ))}
@@ -206,7 +206,7 @@ const Home = () => {
       </Container>
     </section>
 
-    <section>
+    <section className='why_choose-us'>
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -220,7 +220,7 @@ const Home = () => {
               <p className='drasin-desc'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, hic explicabo adipisci ut numquam nostrum tempora eum totam blanditiis! Iusto, id. Voluptas 
               itaque culpa omnis reiciendis eum esse neque obcaecati.</p>
 
-              <ListGroup className='mt-5'>
+              <ListGroup className='mt-4'>
                 <ListGroupItem className='border-0 ps-0'>
                   <p className=' choose_us-title d-flex align-items-center gap-2'>
                   <i className='ri-checkbox-circle-line'></i> Good 
