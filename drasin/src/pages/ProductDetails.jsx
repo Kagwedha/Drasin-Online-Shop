@@ -37,7 +37,9 @@ const ProductDetails = () => {
   };
 
   const submitHandler = e => {
-    e.preventDefault()
+    e.preventDefault();
+
+    console.log(enteredName, enteredEmail, reviewMsg);
   }
 
   useEffect(()=> {
